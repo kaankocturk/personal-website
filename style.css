@@ -15,22 +15,11 @@ body {
 }
 
 .splash{
-  min-height: 772px;
+  min-height: 100vh;
   background-image: url('/wallcomplete.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   box-shadow: 0px 1440px rgba(0,0,0,0.2) inset;
-}
-/*
-.adjectives{
-  min-height: 768px;
-  text-align: center;
-  background-image: url('/wall.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-}*/
-.row{
-
 }
 .adjs{
   margin-top: 14vw;
@@ -42,6 +31,31 @@ body {
 
 .second{
   margin-top: 8vw;
+}
+
+.next{
+  margin-top: 200px;
+  margin-bottom: 100px;
+  color: #723636;
+  text-align: center;
+}
+.well{
+  /*background-color: #111111;*/
+  background-color: black;
+  border-color: #222222;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.score{
+  color: green;
+}
+
+img#nelson{
+  width: 40vw;
+}
+img#einstein{
+  width: 50vw;
 }
 /*.navbar-collapse.collapse {
 display: block!important;
