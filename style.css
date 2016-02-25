@@ -16,7 +16,7 @@ body {
 
 .splash{
   min-height: 100vh;
-  background-image: url('/wallcomplete.jpg');
+  background-image: url('wallcomplete.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   box-shadow: 0px 1440px rgba(0,0,0,0.2) inset;
