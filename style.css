@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  padding-top: 36px;
+  padding-top: 48px;
 }
 .navbar{
   margin-bottom: 0;
@@ -22,7 +22,7 @@ body {
   box-shadow: 0px 1440px rgba(0,0,0,0.2) inset;
 }
 .firstadjs{
-  margin-top: 14vw;
+  margin-top: 12vw;
 }
 
 .left{
@@ -81,17 +81,15 @@ float: right!important;
   -o-transition: color 0.2s ease;
   transition: color 0.2s ease;
   position: relative;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #BCBCBC;
-  text-shadow: 0px 1px 0px #ABABAB,
+  /*text-shadow: 0px 1px 0px #ABABAB,
                    0px 2px 3px #828282,
                    0px 3px 0px #4F4F4F,
-                   0px 4px 0px #4F4F4F,
-                   0px 5px 0px #4F4F4F,
-                   0px 6px 1px rgba(0,0,0,0.1),
-                   0px 10px 5px rgba(0,0,0,0.5);
+                   0px 4px 1px rgba(0,0,0,0.1),
+                   0px 4px 5px rgba(0,0,0,0.5);*/
 }
 .silvertext::after {
 	color: rgba(255,255,255,0.0);
@@ -101,6 +99,10 @@ float: right!important;
 }
 .silvertext:hover {
 	color: #DEDEDE;
+}
+
+p:hover{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {

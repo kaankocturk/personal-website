@@ -12,3 +12,8 @@
 //     .state('analyticalthinker', { url: '/users', templateUrl: '/partials/users.html', controller: 'users' })
 //   $urlRouterProvider.otherwise('/');
 // });
+$('#contact').click(function(){
+  $(".main").scrollTop(300);
+  console.log('click');
+}
+);
